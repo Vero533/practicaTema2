@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url(img/mokup4.jpg);
+    background-size: 100%;
+    justify-content: center;
+    
+
+
+}
+
+.contenedor{
+    width: 70%;
+    margin: 2px auto;
+   text-align: left;
+   
+
+}
+.menu{
+    background:white
+    
+
+}
+
+
+
+.menu li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-right: 1px solid black;
+   
+   
+   
+}
+.menu ul{
+
+  float: right;
+  padding-bottom: 50px;
+  font-size: 20px;
+  margin-top: 40px;
+  
+}
+.menu li a:hover{
+    background: rgb(0, 0, 0,0.02) ;
+
+}
+#btn-menu{
+    display: none;
+
+}
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px ;
+    
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.03)
+}
+header label img{
+    display: none;
+    width: 30px;
+    height: 30px;
+    
+}
+header h1{
+    float: left;
+    padding-bottom: 20px;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+
+
+@media (max-width:768px){
+    header label img{
+        display: block;
+    }
+    header{
+        background: rgb(168, 199, 245);
+        border-bottom: 1px solid rgb(160, 206, 236);
+        width: 100%;
+        
+    }
+    .menu{
+        position: absolute;
+        background: rgb(168, 199, 245);
+        width: 70%;
+        margin-left: -90%;
+        border-top: 1px solid rgb(164, 164, 243);
+     
+        }
+       
+
+    
+    .menu ul{
+        flex-direction: column;
+       
+    }
+    
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+        flex-direction: column;
+    }
+    header h1{
+        margin-left: -90%;
+    }
+}
+.slider ul li img{
+    width: 670px;
+}
+
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    padding: 0;
+    padding-top: 100px;
+   display: flex;
+   width: 400%;
+   padding-bottom: 100px;
+
+   animation: cambio 20s infinite alternate;
+ 
+   
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider ul li img{
+    width: 100%;
+}
+@keyframes cambio{
+    0%{margin-left:  0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+footer h1{
+    text-align: center;
+    font-size: 40px;
+    background: rgb(231, 190, 190);
+    margin-top: 100px;
+}
+.fh1{
+    box-shadow: 10px 10px 5px black;
+}
+.footer li{
+    list-style: none;
+    padding-right: 20px;
+    
+}
+.insta{
+    float: left;
+
+}
+.face{
+    float: left;
+
+}
+.youtube{
+    float:left;
+}
+.footer ul{
+    padding-top: 30px;
+
+}
+.form{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 40px 0;
+    box-shadow: 0 0 6px white;
+    border-radius: 10px;
+}
+.form h1{
+    text-align: center;
+    font-weight: 700;
+}
+form .grupo{
+    position: relative;
+    margin: 40px;
+}
+:root{
+    --colortextos: #f50a0a67;
+
+}
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding:  18px 18px 18px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colortextos);
+}
+input:focus{
+   outline: none;
+    color:rgb(34, 34, 43);
+
+}
+label{
+    color: var(--colortextos);
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+}
+.button{
+    width: 100%;
+   
+    
+   
+   
+
+}
+
+
+

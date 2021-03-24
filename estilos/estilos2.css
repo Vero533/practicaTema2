@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(252, 237, 250);
+}
+
+.contenedor1{
+    width: 70%;
+    margin: 15px auto;
+    text-align: left;
+    
+   
+    
+}
+header h1{
+    text-align: center;
+}
+.img{
+    width: 500px;
+    height: 400px;
+    
+}
+section{
+    float:left;
+    width: 55%;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+aside{
+    float:left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    height: 100%;
+    background: rgb(219, 215, 219);
+
+}
+aside img{
+    width: 235px;
+    height: 200px;
+    padding-top: 30px;
+    
+}
+footer{
+    width: 70%;
+    text-align: center;
+    
+}
+.insta{
+    float: left;
+}
+.face{
+    float: left;
+}
+.youtube{
+    float: left;
+}
+.footer li{
+    list-style: none;
+    padding-right: 30px;
+    padding-top: 40px;
+ 
+}
+section{
+    box-shadow: 10px 10px 5px black;
+    min-width: 300px;
+    margin: 50px;
+}
+footer h1{
+    box-shadow: 10px 10px 5px black;
+    background: rgb(255, 255, 255);
+   
+}
+header h1{
+    background:white;
+    box-shadow: 10px 10px 5px black;
+}
+aside{
+    box-shadow: 10px 10px 5px black;
+   
+}
